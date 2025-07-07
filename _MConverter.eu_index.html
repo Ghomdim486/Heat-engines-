@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.4.1 (Linux)"/>
+	<meta name="author" content="Jos Fohom"/>
+	<meta name="created" content="2025-07-07T08:22:00"/>
+	<meta name="changedby" content="Jos Fohom"/>
+	<meta name="changed" content="2025-07-07T08:22:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.98in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="fr-FR" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0.11in">
+&lt;!DOCTYPE html&gt;</p>
+<p style="margin-bottom: 0.11in">&lt;html lang=&quot;en&quot;&gt;</p>
+<p style="margin-bottom: 0.11in">&lt;head&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;meta charset=&quot;UTF-8&quot;
+/&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;title&gt;How Much Work Can We
+Squeeze from Heat?&lt;/title&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;link rel=&quot;stylesheet&quot;
+href=&quot;assets/css/style.css&quot; /&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;script
+src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&gt;&lt;/script&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;script type=&quot;text/javascript&quot;
+id=&quot;MathJax-script&quot; async</p>
+<p style="margin-bottom: 0.11in">   
+src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;&lt;/script&gt;</p>
+<p style="margin-bottom: 0.11in">&lt;/head&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">&lt;body&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;div class=&quot;container&quot;&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h1&gt;How Much Work Can We
+Squeeze from Heat?&lt;/h1&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Introduction: The
+Quest to Extract Work from Heat&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">      What if you could turn every
+bit of heat into useful work?</p>
+<p style="margin-bottom: 0.11in">       &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">      This simple yet profound
+question lies at the heart of thermodynamics. Whether you’re
+driving a car, flying a jet, or generating power in a steam turbine,
+the goal is the same&nbsp;: extract as much useful work as possible
+from a given amount of heat.</p>
+<p style="margin-bottom: 0.11in">         &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">         &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">But how much is actually possible&nbsp;?</p>
+<p style="margin-bottom: 0.11in">       &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">This article explores that question
+using theoretical insights and simulations, walking through symbolic
+and numerical modeling of three fundamental heat engines — Carnot,
+Otto, and Diesel. You’ll also learn how to build your own simulator
+to explore the limits imposed by nature.</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in"> 
+</p>
+<p style="margin-bottom: 0.11in">    &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Understanding the
+First and Second Laws of Thermodynamics&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;The First Law: Energy
+Conservation in Heat Engines&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[\Delta U = Q +
+W\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;p&gt;Where&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(\Delta U\): change
+in internal energy&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(Q\): heat added to
+the system&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(W\): work done by
+the system&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;The Second Law:
+Entropy and Limitations&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[\Delta
+S_{\text{universe}} \geq 0\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;In a heat engine&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">         &lt;li&gt;Heat enters from
+a hot source&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">          &lt;li&gt;Some is
+converted to work&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">          &lt;li&gt;The rest is
+expelled to a cold sink&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;p&gt;This unavoidable loss
+limits the maximum efficiency of any real engine.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;The Carnot Engine:
+Theoretical Efficiency Limit&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;p&gt;The Carnot cycle is
+the ideal, reversible heat engine. Its efficiency is given by&nbsp;:
+&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[\eta_{\text{Carnot}}
+= 1 - \frac{T_C}{T_H}\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">         &lt;p&gt;Where&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\([\eta_{\text{Carnot}}\)
+ &nbsp;: is the efficiency&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(T_C \)&nbsp;: is
+the temperature of the cold reservoir (in Kelvin)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(T_H \)&nbsp;: is
+the temperature of the hot reservoir (in Kelvin)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;img
+src=&quot;assets/images/carnot-cycle.png&quot; alt=&quot;Carnot
+Cycle&quot; width=&quot;500&quot; /&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;p&gt;This equation defines
+the upper limit — no real engine can be more efficient due to
+irreversibilities.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;h2&gt;Entropy Flow in the
+Carnot Cycle&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;In a Carnot
+engine&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">                &lt;li&gt;\(Q_H \) 
+is the heat absorbed from the hot source&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">                &lt;li&gt;\(Q_C\) 
+is heat rejected to the cold sink &lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;p&gt;Work done is&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;p&gt;&lt;b&gt;W = Q_H – Q_C
+= \[Delta S × (T_H – T_C)\] &lt;/b&gt;&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;p&gt;Entropy is conserved in
+this ideal case&nbsp;: there’s no net generation.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Otto Cycle: Modeling
+the Gasoline Engine&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;h3&gt;Process Overview&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ol&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Adiabatic
+compression&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Isochoric (constant
+volume) heat addition&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Adiabatic
+expansion&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Isochoric heat
+rejection&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ol&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;h3&gt;Efficiency of the
+Otto Cycle&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[\eta_{\text{Otto}} =
+1 - \frac{1}{r^{\gamma - 1}}\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">            &lt;p&gt;Where&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">            &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(r\)&nbsp;:
+compression ratio&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(\gamma\)&nbsp;:
+heat capacity ratio \((C_p/C_v)\)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;h3&gt;Efficiency vs
+Compression Ratio&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;Plotting efficiency
+against compression ratio reveals diminishing returns — after a
+certain point, increasing compression yields minimal gains due to
+knocking limits.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;img
+src=&quot;assets/images/otto-cycle.png&quot; alt=&quot;Otto Cycle&quot;
+width=&quot;500&quot; /&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Diesel Cycle: Heat
+Addition at Constant Pressure&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Diesel Efficiency
+Equation&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[ \eta_{\text{Diesel}}
+= 1 - \frac{1}{r^{\gamma - 1}} \cdot</p>
+<p style="margin-bottom: 0.11in">      \left(\frac{\rho^{\gamma -
+1}}{\gamma(\rho - 1)}\right) \]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">         &lt;p&gt;Where&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">         &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;\(\rho\)&nbsp;:
+cut-off ratio \((V_3 / V_2)\)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;img
+src=&quot;assets/images/diesel-cycle.png&quot; alt=&quot;Diesel
+Cycle&quot; width=&quot;500&quot; /&gt;</p>
+<p style="margin-bottom: 0.11in">       &lt;p&gt;Diesel engines allow
+higher compression ratios without knocking, making them more
+efficient in heavy-duty applications.&lt;/p&gt; 
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Building a
+Thermodynamic Simulator&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;p&gt;You can build your own
+simulator using&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Python (NumPy,
+Matplotlib, SymPy)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;MATLAB/Simulink&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;GeoGebra&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;p&gt;Your simulator can let
+users adjust&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Reservoir
+temperatures&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Compression
+ratios&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Specific heats&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Cut-off volumes&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Try the Otto Cycle
+Simulator&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;&lt;a
+href=&quot;https://colab.research.google.com/&quot;
+target=&quot;_blank&quot;&gt;<font face="Segoe UI Emoji, serif">👉</font>
+Open the Otto Cycle Simulator in Google Colab&lt;/a&gt;&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;h2&gt;Visualizing
+Thermodynamic Cycles&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Step-by-Step&nbsp;:
+P-V and T-S Diagrams&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ol&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Define states using
+ideal gas relations&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Plot P-V
+diagram&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Plot T-S
+diagram&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ol&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;Label areas for heat
+input, heat rejection, and net work.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Comparing Engine
+Efficiencies&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\(\eta_{\text{Otto}},
+\eta_{\text{Diesel}}, \eta_{\text{Carnot}} \text{ vs } r\)&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Otto flattens early
+due to knocking&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Diesel performs
+better under pressure&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Carnot remains ideal
+— never surpassed&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">     &lt;h2&gt;Entropy Generation
+and Work Output&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Carnot&nbsp;: no net
+entropy (ideal)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Otto &amp; Diesel&nbsp;:
+positive entropy from combustion, friction, and heat loss&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[W_{\text{net}} =
+\text{Area enclosed on P-V diagram}\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Symbolic vs Numeric
+Computation of Work&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Symbolic (SymPy)&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;\[W = \int_{V_1}^{V_2}
+P(V) \, dV\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;For adiabatic
+processes&nbsp;: \[P(V) = P_1 \cdot
+\left(\frac{V_1}{V}\right)^\gamma\]&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Numeric
+(NumPy/Scipy)&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Use discrete P-V
+data from simulation&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Apply
+&lt;code&gt;np.trapz()&lt;/code&gt; or
+&lt;code&gt;scipy.integrate.simps()&lt;/code&gt;&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Compare to ideal
+values&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Case Study: Simulation
+Results&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;table border=&quot;1&quot;
+cellpadding=&quot;5&quot;&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;tr&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;th&gt;Engine&lt;/th&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;th&gt;Efficiency&lt;/th&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;th&gt;Net Work (kJ)&lt;/th&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;th&gt;Entropy Gen
+(J/K)&lt;/th&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;/tr&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;tr&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;Carnot&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;50%&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;100&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;0&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;/tr&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;tr&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;Otto&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;45%&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;95&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;10&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;/tr&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;tr&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;Diesel&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;48%&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;98&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">        &lt;td&gt;8&lt;/td&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;/tr&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/table&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;h2&gt;Limitations of Real
+Engines&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;Real-world issues lower
+efficiency&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Friction&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Combustion
+delay&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Valve
+imperfections&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Heat transfer
+lags&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;Even the best materials
+can’t match Carnot because real engines must run at finite
+speed.&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;From Simulations to
+Real Systems&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;Sensor-Driven
+Prototypes&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;Link your simulator
+to&nbsp;:&lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Arduino / Raspberry
+Pi sensors&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Live temperature +
+pressure readings&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;IoT dashboards for
+feedback and control&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h3&gt;AI and
+Optimization&lt;/h3&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Predict engine
+failure from entropy trends&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Tune cycles for max
+work output&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;Adaptive control
+systems for smart engines&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;FAQs&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;ul&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q:&lt;/b&gt;
+What's the max efficiency of a heat engine?&lt;br/&gt;&lt;b&gt;A:&lt;/b&gt;
+\(\eta = 1 - \frac{T_C}{T_H}\)&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q:&lt;/b&gt;
+Can we build a real Carnot engine?&lt;br/&gt;&lt;b&gt;A:&lt;/b&gt;
+No, it’s theoretical only.&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q:&lt;/b&gt;
+Why are Diesel engines more efficient?&lt;br/&gt;&lt;b&gt;A:&lt;/b&gt;
+Higher compression &amp; constant-pressure addition.&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q&nbsp;:&lt;/b&gt;
+How is entropy related to work&nbsp;?&lt;br/&gt;&lt;b&gt;A&nbsp;:&lt;/b&gt;
+More entropy = more waste. Less entropy = more usable energy.&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q&nbsp;:&lt;/b&gt;
+Can I simulate without coding&nbsp;?&lt;br/&gt;&lt;b&gt;A&nbsp;:&lt;/b&gt;
+Yes — use GeoGebra or MATLAB Simulink.&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">      &lt;li&gt;&lt;b&gt;Q&nbsp;:&lt;/b&gt;
+How do I visualize engine cycles&nbsp;?&lt;br/&gt;&lt;b&gt;A&nbsp;:&lt;/b&gt;
+Use P-V and T-S diagrams. Work is the area inside the cycle.&lt;/li&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;/ul&gt;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">    &lt;h2&gt;Conclusion: Powering
+More Than Machines&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">      Growing up in Cameroon, I’ve
+spent countless nights without electricity — scribbling notes by
+candlelight and solving equations under fading flashlight beams.
+Those quiet outages weren’t just inconveniences&nbsp;; they were
+questions waiting to be answered. Questions like&nbsp;: How can we
+design engines that waste less&nbsp;? How can we build systems that
+serve more people with less fuel&nbsp;? 
+</p>
+<p style="margin-bottom: 0.11in">    &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">    &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in">    This article, and the
+simulations behind it, are part of my personal pursuit to turn those
+questions into action. Through thermodynamics, symbolic math, and
+open-source modeling, I’ve learned how energy flows, where it
+escapes, and how we can harness it more wisely. Each diagram, each
+line of Python code, brings me closer to a future where efficient,
+sustainable energy systems are the norm — not the exception.</p>
+<p style="margin-bottom: 0.11in">     &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">   &lt;p&gt;</p>
+<p style="margin-bottom: 0.11in"> I may not have all the answers yet.
+But I’m building the tools to ask better questions — and to power
+not just machines, but lives.</p>
+<p style="margin-bottom: 0.11in">  &lt;/p&gt;</p>
+<p style="margin-bottom: 0.11in">  &lt;/div&gt;</p>
+<p style="margin-bottom: 0.11in">&lt;/body&gt;</p>
+<p style="margin-bottom: 0.11in">&lt;/html&gt;</p>
+</body>
+</html>
